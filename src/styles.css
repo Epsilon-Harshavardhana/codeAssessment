@@ -1,0 +1,22 @@
+.cardContiner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+}
+.moreFiltersButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sortBySelectionContainer {
+  background-color: lightblue;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  height: 4rem;
+}
+
+.relatedItemsCarosel {
+  border-bottom: 1px solid gray;
+}

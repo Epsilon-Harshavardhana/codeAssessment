@@ -1,0 +1,10 @@
+.detailesButton {
+  position: absolute;
+  left: 25%;
+  bottom: 8px;
+  height: 2em;
+  width: 50%;
+}
+.column {
+  flex: 0;
+}

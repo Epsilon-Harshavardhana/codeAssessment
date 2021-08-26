@@ -1,0 +1,37 @@
+.rowPosters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.rowPosters::-webkit-scrollbar {
+  display: none;
+}
+
+.rowPoster {
+  height: 200px;
+  width: fit-content;
+  margin-right: 20px;
+  transition: transform 450ms;
+}
+
+.rowPoster::-webkit-scrollbar {
+  display: none;
+}
+
+.posterImg {
+  /* object-fit: contain; */
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.rowPoster:hover {
+  transform: scale(1.08);
+}
+P {
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+  color: black;
+  margin: 0;
+}

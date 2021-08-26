@@ -1,0 +1,10 @@
+.filterButton {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 4em;
+}
+.filterButtonsContanier {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 1fr 1fr;
+}
