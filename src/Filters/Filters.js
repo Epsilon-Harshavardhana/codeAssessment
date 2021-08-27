@@ -11,6 +11,8 @@ const filters = [
   "Wearables"
 ];
 
+// add more button functionality
+
 function Filters() {
   return (
     <div className="filterButtonsContanier">
